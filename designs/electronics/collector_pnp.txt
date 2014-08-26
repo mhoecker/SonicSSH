@@ -1,0 +1,54 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=collector
+*Date=14:31:48
+*CreatedBy=Fritzing 0.8.3b.07.27.048f
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;38.7985;-28.6632;0;Bottom;Copper Fill4
+2;;THT;27.9402;-15.7539;0;Bottom;Accel
+3;;THT;39.3702;-13.2139;90;Bottom;I/O2
+4;;;45.8216;-3.8347;0;Bottom;Copper Fill22
+5;;THT;25.4002;-15.7539;0;Bottom;Rot
+6;;;28.8798;-20.8527;0;Bottom;Copper Fill18
+7;;;34.7853;-2.9584;0;Bottom;Copper Fill25
+8;;;44.9453;-2.9584;0;Bottom;Copper Fill7
+9;;;45.8216;-3.8347;0;Bottom;Copper Fill8
+10;1µF;100 mil [THT, multilayer];38.9977;-4.69645;45;Bottom;C5
+11;;;33.7185;-28.6632;0;Bottom;Copper Fill2
+12;1µF;100 mil [THT, multilayer];44.0777;-4.69645;45;Bottom;C6
+13;;;33.7185;-28.6632;0;Bottom;Copper Fill12
+14;;;32.9565;-24.4214;0;Bottom;Copper Fill14
+15;1µF;100 mil [THT, multilayer];34.6628;-26.8114;-135;Bottom;C1
+16;;THT;39.3702;-18.2939;-90;Bottom;I/O1
+17;1µF;100 mil [THT, multilayer];39.7428;-26.8114;-135;Bottom;C2
+18;;THT;39.3702;-9.40392;90;Bottom;S2
+19;1µF;100 mil [THT, multilayer];44.8228;-26.8114;-135;Bottom;C3
+20;;;24.3332;-20.8527;0;Bottom;Copper Fill20
+21;;;30.4165;-16.8014;0;Bottom;Copper Fill19
+22;;;34.7853;-2.9584;0;Bottom;Copper Fill10
+23;;;43.8785;-28.6632;0;Bottom;Copper Fill5
+24;;;24.9936;-15.506;0;Bottom;Copper Fill1
+25;;;39.8653;-2.9584;0;Bottom;Copper Fill23
+26;;;32.8168;-27.7615;0;Bottom;Copper Fill3
+27;;;39.8653;-2.9584;0;Bottom;Copper Fill9
+28;1µF;100 mil [THT, multilayer];33.9177;-4.69645;45;Bottom;C4
+29;;;31.9532;-23.3927;0;Bottom;Copper Fill15
+30;;THT;39.3702;-22.1039;-90;Bottom;S1
+31;;;38.7985;-28.6632;0;Bottom;Copper Fill16
+32;;;40.5765;-7.1748;0;Bottom;Copper Fill24
+33;;;24.9936;-15.506;0;Bottom;Copper Fill11
+34;3V;;31.7502;-15.7539;-90;Bottom;5V
+35;;;43.8785;-28.6632;0;Bottom;Copper Fill17
+36;;;24.3332;-20.8527;0;Bottom;Copper Fill6
+37;;;44.9453;-2.9584;0;Bottom;Copper Fill21
+38;;THT;30.404;-8.22705;180;Bottom;SPI
+39;;;32.8168;-27.7615;0;Bottom;Copper Fill13
