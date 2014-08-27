@@ -8,3 +8,4 @@
 *.gif
 #Binary Data
 *.mat
+octave-core
