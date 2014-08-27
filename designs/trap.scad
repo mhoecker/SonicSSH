@@ -90,7 +90,7 @@ module trapezoid(side=480,orientation=[0,0,0],origin=[0,0,0],sensors=[0,1,2,3,4]
 			 fakechanel(origin=[-xt+48,yt,-41],orientation=[0,0,0],length=side-72);
 			 fakechanel(origin=[-120,yb+21,-41],orientation=[0,0,90],length=side*sin(60)-42);
 			 fakechanel(origin=[xb-side/2,yb,-82],orientation=[0,0,60],length=side/2);
-			 fakechanel(origin=[xb-side/4,yb,-82],orientation=[0,0,60],length=side/4);
+			 fakechanel(origin=[xb-side/3,yb,-82],orientation=[0,0,60],length=side/3);
 				color("Gray",a=.5){
 				 for(i=sensors){
 				  if(i==0){
@@ -116,7 +116,7 @@ module trapezoid(side=480,orientation=[0,0,0],origin=[0,0,0],sensors=[0,1,2,3,4]
 }
 c60 = cos(60);
 s60 = sin(60);
-side = 48*20;
+side = 48*3*8;
 union(){
  //trapezoid();
  trapezoid(side=side,orientation=[0,0,-120],origin=[.5*side,s60*side,0],sensors=[0,1,2,3]);
