@@ -1,8 +1,10 @@
 *.*~
-images
+#images
 *.png
 *.jpg
 *.jpeg
 *.pdf
 *.ps
 *.gif
+#Binary Data
+*.mat
