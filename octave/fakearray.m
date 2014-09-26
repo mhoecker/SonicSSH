@@ -5,8 +5,12 @@ R = 1;
 Order = 3;
 # Record Length (sec)
 T = 240;
+# number of wavenegths
+NL = 4;
+# Maximu wavelength (m)
+L0 = 100;
 # Wavelengths (m)
-L = R*(55+45*rand(1,4));
+L = R*(.55*L0+.45*L0*rand(1,NL));
 # Amplitude
 A = rand(size(L));
 # Orientation (degrees)
