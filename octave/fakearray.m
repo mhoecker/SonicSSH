@@ -1,6 +1,7 @@
 # Array spacing (m)
 R = 1;
 # Array size
+# order gives the highest order derivative estimated
 Order = 3;
 # Record Length (sec)
 T = 240;
