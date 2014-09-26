@@ -83,6 +83,14 @@ Taylorinv = inv(Taylor);
 # Calculate derrivatives
 hders = Taylorinv*h;
 #
+# hders is an array containing time series of
+# the mean (order>0)
+# dhdx     (order>1)
+# dhdy     (order>1)
+# d^2hdx^2 (order>2)
+# d^2hdx^2 (order>2)
+# d^2hdxdy (order>2)
+#
 #
 figure(1)
 subplot(2,1,1)
